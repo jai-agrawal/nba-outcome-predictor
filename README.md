@@ -4,6 +4,9 @@ to distinguish these predictions as either being real-time/live or pre-game. One
 data and labels in order to further predict certain labels (in this case - outcomes of the game) using certain data (in this case - scores from the end of the 3rd 
 quarter). 
 
+## Data Used
+The data used in this project was previously scraped from stats.nba.com and then formatted for simplicity into a .csv file.  
+
 ## Working of the Code
 The working of the code is simple. As shown in main.py, the overall flow involves itself with the insertion of the data as a pandas DataFrame, the further splitting 
 of said data into data (x) and labels (y). Further, the data is then split into training data and testing data (80-20). Then, the data is scaled using StandardScaler(). Finally, the Logistic Regression Classifier model is initialised and fitted. All of the same have been done using sklearn. 
