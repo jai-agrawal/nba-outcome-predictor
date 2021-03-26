@@ -5,7 +5,7 @@ data and labels in order to further predict certain labels (in this case - outco
 quarter). 
 
 ## Data Used
-The data used in this project was previously scraped from stats.nba.com and then formatted for simplicity into a .csv file.  
+The data used in this project was previously scraped from stats.nba.com and then formatted for simplicity into a .csv file. More speciifically it conforms to the dates, final, and 3rd-Quarter scores of all matchups that occurred during the 2015-2016 NBA season. 
 
 ## Working of the Code
 The working of the code is simple. As shown in main.py, the overall flow involves itself with the insertion of the data as a pandas DataFrame, the further splitting 
